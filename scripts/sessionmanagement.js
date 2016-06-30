@@ -5,7 +5,7 @@ execute=authenticated
   **/ 
  var http = require("http");
 var config = require("./config.js");
-var userModule = require("informatica/user.js");
+var userModule = require("./user.js");
 var util = require("./util.js");
 
 /**
