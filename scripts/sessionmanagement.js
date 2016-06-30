@@ -4,9 +4,9 @@ write=nobody
 execute=authenticated 
   **/ 
  var http = require("http");
-var config = require("./config");
-var userModule = require("informatica/user");
-var util = require("./util");
+var config = require("./config.js");
+var userModule = require("informatica/user.js");
+var util = require("./util.js");
 
 /**
  * @class SessionManager

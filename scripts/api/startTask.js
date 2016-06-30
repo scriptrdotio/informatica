@@ -11,8 +11,8 @@ execute=authenticated
  * hardcoded in line 13 below.
  */
 
-var sessionMgt = require("../sessionmanagement");
-var taskMgt = require("../taskmanagement");
+var sessionMgt = require("../sessionmanagement.js");
+var taskMgt = require("../taskmanagement.js");
 
 var taskName = request.parameters.taskName;
 

@@ -3,7 +3,7 @@
 write=nobody
 execute=authenticated 
   **/ 
- var config = require("./config");
+ var config = require("./config.js");
 
 /**
  * Wraps an actual Job that was defined in Informatica Cloud service

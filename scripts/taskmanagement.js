@@ -3,9 +3,9 @@
 write=nobody
 execute=authenticated 
   **/ 
- var clientModule = require("./client");
-var config = require("./config");
-var taskModule = require("./task");
+ var clientModule = require("./client.js");
+var config = require("./config.js");
+var taskModule = require("./task.js");
 
 /**
  * Wraps Task-related (jobs) APIs on Informatica Cloud Service.

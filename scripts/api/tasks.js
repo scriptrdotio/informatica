@@ -12,8 +12,8 @@ execute=authenticated
  * Can return an empty object {} if not found
  */
 
-var sessionMgt = require("../sessionmanagement");
-var taskMgt = require("../taskmanagement");
+var sessionMgt = require("../sessionmanagement.js");
+var taskMgt = require("../taskmanagement.js");
 
 var type = request.parameters.type;
 var id = request.parameters.id;

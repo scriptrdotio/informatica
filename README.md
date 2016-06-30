@@ -30,7 +30,7 @@ The IoT is a mine of opportunities for businesses who know how to connect unstru
 
 Require the sessionmangement script
 
-`var sessionMgt = require("informatica/sessionmanagement");`
+`var sessionMgt = require("informatica/sessionmanagement.js");`
 
 Create an instance of SessionManager
 
@@ -48,7 +48,7 @@ Open a session
 
 Require the taskmanagement script
 
-`var taskMgt = require("informatica/taskmanagement");`
+`var taskMgt = require("informatica/taskmanagement.js");`
 
 Create an instance of TaskManager
 

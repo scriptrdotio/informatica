@@ -3,8 +3,8 @@
 write=nobody
 execute=authenticated 
   **/ 
- var config = require("./config");
-var client = require("./client");
+ var config = require("./config.js");
+var client = require("./client.js");
 
 /**
  * An abstraction of an user that is defined in your Informatica Cloud Service account
