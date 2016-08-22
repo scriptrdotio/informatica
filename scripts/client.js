@@ -48,7 +48,7 @@ HttpClient.prototype.callApi = function(params) {
      return this._callApi(params);
   }catch(response) {
    
-    if (response.metadata && response.metadata.statusCode == "401" || response.metadata.statusCode == "403") {    
+    if (response.metadata && (response.metadata.statusCode == "401" || response.metadata.statusCode == "403")) {    
     
       this._refreshSession();         
       try {
