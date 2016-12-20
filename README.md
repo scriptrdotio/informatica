@@ -56,7 +56,7 @@ Create an instance of TaskManager
 
 List tasks of a given type
 
-`var tasks = taskMgr.listTasks({type:"DSS");`
+`var tasks = taskMgr.listTasks({type:"DSS"});`
 
 **Note** If you do not specify the task type, the taskManager uses the default task type defined in the config file.
 
