@@ -52,7 +52,7 @@ Require the taskmanagement script
 
 Create an instance of TaskManager
 
-`var taskMgr = new taskMgt.TaskManager(user.getSessionManager());`
+`var taskMgr = new taskMgt.TaskManager({"sessionMgr":user.getSessionManager()});`
 
 List tasks of a given type
 
